@@ -596,7 +596,7 @@ header {
   text-transform: uppercase;
   color: #fff;
   position: absolute;
-  bottom: 45px;
+  bottom: 5%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -1032,6 +1032,17 @@ header {
     padding: 0 20px;
   }
 
+  .spotlights__video .btn__play,
+  .spotlights__video .btn__pause {
+    width: 40px;
+    height: 40px;
+  }
+
+  .btn__pause.active:after,
+  .btn__pause.active:before {
+    width: 8px;
+  }
+
   .numbers__col {
     padding: 0 20px;
   }
@@ -1234,6 +1245,10 @@ header {
     width: 100%;
   }
 
+  .spotlights__video .video__title {
+    font-size: 24px;
+  }
+
   .form__body {
     padding: 40px 0;
   }
@@ -1316,6 +1331,10 @@ header {
     text-align: center;
   }
 
+  .services__col {
+    padding: 0;
+  }
+
   .spotlights__title {
     font-size: 24px;
   }
@@ -1324,6 +1343,7 @@ header {
   .spotlights__video .btn__pause {
     width: 34px;
     height: 34px;
+    top: 45%;
   }
 
   .spotlights__video .video__subtitle {
@@ -1332,10 +1352,6 @@ header {
 
   .spotlights__video .video__title {
     font-size: 13px;
-  }
-
-  .spotlights__video .video__text {
-    bottom: 15px;
   }
 
   .btn__pause.active:after,
@@ -1372,6 +1388,14 @@ header {
 
   .item__body {
     width: 100%;
+  }
+
+  .main__form:before {
+    display: none;
+  }
+
+  .main__form:after {
+    left: -50%;
   }
 
   .footer__body {
@@ -1436,6 +1460,10 @@ header {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+
+  .spotlights__video .video__subtitle {
+    margin-bottom: 5px;
   }
 
   .company__name {
