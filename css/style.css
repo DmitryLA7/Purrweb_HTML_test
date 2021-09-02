@@ -142,7 +142,7 @@ header {
   padding: 0 10px;
 }
 
-.lock {
+body.lock {
   overflow-y: hidden;
   position: relative;
   height: 100%;
@@ -685,13 +685,14 @@ header {
   background-color: #232323;
   position: relative;
   overflow: hidden;
+  height: 100%;
 }
 
 .main__form:after {
   content: '';
   width: 450px;
   height: 450px;
-  top: 0;
+  bottom: 50%;
   left: 0;
   background: -o-linear-gradient(77.92deg, #F101BF 2.82%, #0066FF 97.06%);
   background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
@@ -734,7 +735,6 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  z-index: 3;
   position: relative;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -747,6 +747,10 @@ header {
 
 .form__body .form__col:last-child {
   width: 60%;
+}
+
+.form__col {
+  z-index: 3;
 }
 
 .form__title {
@@ -1195,6 +1199,20 @@ header {
 
   .services__col {
     padding: 0 20px;
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+
+  .services__img {
+    height: 130px;
+    padding-left: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .services__img img {
+    max-height: 130px;
   }
 
   .form__body {
