@@ -142,7 +142,7 @@ header {
   padding: 0 10px;
 }
 
-.lock {
+body.lock {
   overflow-y: hidden;
   position: relative;
   height: 100%;
@@ -735,7 +735,6 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  z-index: 3;
   position: relative;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -748,6 +747,10 @@ header {
 
 .form__body .form__col:last-child {
   width: 60%;
+}
+
+.form__col {
+  z-index: 3;
 }
 
 .form__title {
@@ -1336,6 +1339,9 @@ header {
 
   .services__col {
     padding: 0;
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
   }
 
   .spotlights__title {
