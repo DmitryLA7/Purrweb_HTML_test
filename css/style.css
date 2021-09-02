@@ -1106,6 +1106,8 @@ body.lock {
 
   .nav__body.active {
     left: 0;
+    overflow-y: auto;
+    padding-bottom: 20px;
   }
 
   .burger {
