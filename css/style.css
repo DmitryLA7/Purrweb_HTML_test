@@ -377,6 +377,7 @@ body.lock {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 140px;
+  margin-bottom: 50px;
 }
 
 .header__anchor a:after {
@@ -1279,6 +1280,7 @@ body.lock {
 
   .footer__col {
     margin-left: 0;
+    margin-bottom: 10px;
   }
 
   .footer__item {
@@ -1349,10 +1351,6 @@ body.lock {
   .services__img {
     padding-left: 0;
     text-align: center;
-  }
-
-  .services__col {
-    padding: 0;
   }
 
   .spotlights__title {
