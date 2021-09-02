@@ -685,6 +685,7 @@ header {
   background-color: #232323;
   position: relative;
   overflow: hidden;
+  height: 100%;
 }
 
 .main__form:after {
