@@ -1199,6 +1199,20 @@ body.lock {
 
   .services__col {
     padding: 0 20px;
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+
+  .services__img {
+    height: 130px;
+    padding-left: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .services__img img {
+    max-height: 130px;
   }
 
   .form__body {
@@ -1339,9 +1353,6 @@ body.lock {
 
   .services__col {
     padding: 0;
-    -webkit-box-flex: 100%;
-        -ms-flex: 100%;
-            flex: 100%;
   }
 
   .spotlights__title {
