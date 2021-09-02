@@ -6,7 +6,10 @@ if (burgerEl){
 		document.body.classList.toggle('lock')
 		this.classList.toggle('active')
 		menuNav.classList.toggle('active')
+		document.body.addEventListener('touchmove', preventDefault, { passive: false })
 	})
+}else{
+	document.body.removeEventListener('touchmove', preventDefault)
 }
 //Smooth scroll
 let scrollElem = document.querySelector('.anchor[data-goto]')
